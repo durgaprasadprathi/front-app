@@ -1,0 +1,57 @@
+.diagram-sidebar-top-section{
+    height:50%;
+    padding:0px 10px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+.diagram-sidebar-bottom-section{
+    padding:0px 10px;
+    padding-top: 20px;
+    height:50%;
+    background-color: #f2f7ff;
+    /* border-top: 2px solid black; */
+    overflow-y: auto;
+    .title{
+        font-size:15px;
+        font-weight:bold;
+        color:black;
+    }
+    .open-icon{
+        font-size:15px;
+        font-weight:bold;
+        color:black;
+        text-align: right;
+    }
+}
+.right-sidebar-modal{
+    width: 20%;
+    padding:10px 0px;
+    height: 100vh;
+}
+
+.right-sidebar-title{
+    font-size: 1rem;
+    font-weight: bolder;
+    color:black;
+    font-family: "Inter", sans-serif;
+    margin-top:0.5rem;
+}
+
+.right-sidebar-display{
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right-sidebar-cross{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.close-btn {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+  }

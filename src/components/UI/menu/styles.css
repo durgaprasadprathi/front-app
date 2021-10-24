@@ -1,0 +1,28 @@
+.canvas-menu{
+    font-size:1rem;
+    width: 100%;
+    color:black;
+    cursor:pointer;
+    border:1px solid #0031c9;
+    background-color:#e6efff;
+    border-radius: 6px;
+    margin-left: 2px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-left: 10px;
+}
+.canvas-menu:hover{
+    /* border-left: 3px solid red; */
+    background: #0031c9;
+    color: #fff;
+}
+
+.canvas-active{
+    font-weight: 900;
+    color:white;
+    background-color:#0031c9;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
