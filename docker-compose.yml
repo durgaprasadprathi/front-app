@@ -1,0 +1,12 @@
+version: "3.2"
+services:
+  react_admin:
+    restart: always
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        - REACT_APP_API_URL=https://qcloud-backend.test.appmodz.net/qcloud/v1/
+    ports:
+      - '3005:80'
+    container_name: admin_dash

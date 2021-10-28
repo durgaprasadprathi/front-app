@@ -1,0 +1,23 @@
+.diagram-basic-show{
+    position: absolute;
+    left: 42%;
+    font-size: 30px;
+    top: 127px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.diagram-basic-hide{
+    position: absolute;
+    left: 42%;
+    font-size: 30px;
+    top: -6px;
+    cursor: pointer;
+}
+
+.diagram-information{
+    position: relative;
+}
+.diagram-info-hide{
+    height:20px;
+}
