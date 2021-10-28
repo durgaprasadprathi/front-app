@@ -1,1 +1,0 @@
-export const ADD_ORGANIZATION = 'ADD_ORGANIZATION';
