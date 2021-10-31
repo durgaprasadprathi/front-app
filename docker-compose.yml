@@ -6,7 +6,7 @@ services:
       context: ./
       dockerfile: Dockerfile
       args:
-        - REACT_APP_API_URL=http://qcloud-backend.test.appmodz.net/qcloud/v1/
+        - REACT_APP_API_URL=http://172.31.20.143:3006/qcloud/v1/
     ports:
       - '3005:80'
     container_name: admin_dash
